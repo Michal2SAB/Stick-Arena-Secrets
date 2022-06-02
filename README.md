@@ -110,7 +110,7 @@ Features:
 * Check any user's game stats, status, last login date, current IP and current RGB color code, current verified email or unverified one (attempted at account creation)
 
 
-![mcp](https://github.com/Michal2SAB/XGEN-DISCORD-BOT/raw/main/Screenshot_2.png)
+![mcp](https://github.com/Michal2SAB/Stick-Arena-Secrets/Resources/raw/main/mcp.png)
 
 #### 2. Mod Client
 Custom stick arena flash client created by Neo for moderators
@@ -126,7 +126,7 @@ Features:
    
    * v2: by having a mod account connect to server but not send lobby appearance packet and use its socket conn to send packets
 
-[![mcc](https://github.com/Michal2SAB/XGEN-DISCORD-BOT/blob/main/Screenshot_3.png)](https://www.youtube.com/watch?v=7AYOveT-t7k)
+[![mc](https://github.com/Michal2SAB/Stick-Arena-Secrets/Resources/blob/main/mc.png)](https://www.youtube.com/watch?v=7AYOveT-t7k)
 
 #### 3. Color Hack Program
 
@@ -137,4 +137,4 @@ Features:
   * Color rules applied, prevents from trying non-working color codes
 
 # . : : Rank 16 : : .
-[![rank](https://github.com/Michal2SAB/XGEN-DISCORD-BOT/raw/main/Screenshot_5.png)](https://youtu.be/tWrqZXKtH8E)
+[![rank](https://github.com/Michal2SAB/Stick-Arena-Secrets/Resources/raw/main/16.png)](https://youtu.be/tWrqZXKtH8E)
