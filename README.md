@@ -23,6 +23,7 @@ Stick Arena structure, secrets and other cool knowledge that I have. Still gonna
 | 06;rc | Get game creator | 06Xgen Hq;rc |
 | 0h | Find user in server | 0hMichal |
 | 0b + spinner id + color1 + color2 | Buy spinner | 0b100255000000255000000
+| K | Send kick vote in-game | K100
 
 ## Server to Client
 | Packet      | Description |
@@ -42,6 +43,7 @@ Stick Arena structure, secrets and other cool knowledge that I have. Still gonna
 | 0h          | Receive response for /find command |
 | 0f and 0e   | You got banned, ban time and ban message |
 | 0g          | Receive mod warning / mod global message |
+| K | Players kicking eachother / You got kicked |
 
 
 # . : : Color Code Rules : : .
@@ -110,7 +112,7 @@ Features:
 * Check any user's game stats, status, last login date, current IP and current RGB color code, current verified email or unverified one (attempted at account creation)
 
 
-![mcp](https://github.com/Michal2SAB/Stick-Arena-Secrets/Resources/raw/main/mcp.png)
+![mcp](https://github.com/Michal2SAB/Stick-Arena-Secrets/raw/main/Resources/mcp.png)
 
 #### 2. Mod Client
 Custom stick arena flash client created by Neo for moderators
@@ -126,7 +128,7 @@ Features:
    
    * v2: by having a mod account connect to server but not send lobby appearance packet and use its socket conn to send packets
 
-[![mc](https://github.com/Michal2SAB/Stick-Arena-Secrets/Resources/blob/main/mc.png)](https://www.youtube.com/watch?v=7AYOveT-t7k)
+[![mc](https://github.com/Michal2SAB/Stick-Arena-Secrets/raw/main/Resources/mc.png)](https://www.youtube.com/watch?v=7AYOveT-t7k)
 
 #### 3. Color Hack Program
 
@@ -137,4 +139,4 @@ Features:
   * Color rules applied, prevents from trying non-working color codes
 
 # . : : Rank 16 : : .
-[![rank](https://github.com/Michal2SAB/Stick-Arena-Secrets/Resources/raw/main/16.png)](https://youtu.be/tWrqZXKtH8E)
+[![rank](https://github.com/Michal2SAB/Stick-Arena-Secrets/raw/main/Resources/16.png)](https://youtu.be/tWrqZXKtH8E)
