@@ -13,17 +13,18 @@ Stick Arena structure, secrets and other cool knowledge that I have. Still gonna
 | 0a | Collect creds ticket | 0a |
 | 01 | Check open games list | 01 |
 | 9 | Send chat message | 9Hello World |
-| 00 + id + P | Send private message to user | 0010fPHello World |
-| 00 + id + P + >VIP< | Add user to VIP list | 0010fP>VIP< |
-| 00 + id + P + >UNVIP< | Remove user from VIP list | 0010fP>UNVIP< |
+| 00 + UID + P | Send private message to user | 0010fPHello World |
+| 00 + UID + P + >VIP< | Add user to VIP list | 0010fP>VIP< |
+| 00 + UID + P + >UNVIP< | Remove user from VIP list | 0010fP>UNVIP< |
 | 027200 | Create public game | 027200The Pit
+| 020210 | Create private game | 0202102v2 |
 | 03 | Join game | 03XGen Hq |
 | 04 | Get game info | 04XGen Hq |
 | 06;mp | Get game map | 06XGen Hq;mp |
-| 06;rc | Get game creator | 06Xgen Hq;rc |
+| 06;rc | Get game creator | 06XGen Hq;rc |
 | 0h | Find user in server | 0hMichal |
 | 0b + spinner id + color1 + color2 | Buy spinner | 0b100255000000255000000
-| K | Send kick vote in-game | K100
+| K + UID | Send kick vote in-game | K100
 
 ## Server to Client
 | Packet      | Description |
@@ -36,7 +37,7 @@ Stick Arena structure, secrets and other cool knowledge that I have. Still gonna
 | 091         | Account is banned |
 | 093         | Secondary login |
 | 0c          | Receive cred ticket |
-| 01          | Receive open games list |
+| 01_          | Receive open games list |
 | 04          | Receive info about selected game |
 | 06;mp       | Receive map name from selected game |
 | 06;rc       | Discover who created selected game |
@@ -95,6 +96,8 @@ Stick Arena transforms RGB colors so $\color{#FF0000}{255000000}$ will not look 
 * Color code rules for shop purchase don't apply for level 2 mods (unconfirmed)
 * Always above everybody's rank in lobby, even labpass players
 * XGen admins favouritism, favors and numerous advantages
+* Can get any spinner and any color by asking (including builders that they don't deserve)
+* Can ask for a namechange at any moment, as many times as they want
 * Incredible power, little to no responsibility
 
 ### Mod Tools
@@ -138,5 +141,9 @@ Features:
   * Spinner and name color preview
   * Color rules applied, prevents from trying non-working color codes
 
-# . : : Rank 16 : : .
+#### 4. 
+
+# . : : What is rank 16 like? : : .
+I'm the first and most likely the last person that will ever get it, here's how it looks like:
+
 [![rank](https://github.com/Michal2SAB/Stick-Arena-Secrets/raw/main/Resources/16.png)](https://youtu.be/tWrqZXKtH8E)
