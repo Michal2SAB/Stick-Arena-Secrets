@@ -11,6 +11,7 @@ Stick Arena structure, secrets and other cool knowledge that I have. Still gonna
 | 03_ | Join lobby 1 | 03_ |
 | 02Z900_ | Join lobby 2 | 02Z900_ |
 | 0a | Collect creds ticket | 0a |
+| 0c | Request profile data | 0c |
 | 01 | Check open games list | 01 |
 | 9 | Send chat message | 9Hello World |
 | 00 + UID + P | Send private message to user | 0010fPHello World |
@@ -22,9 +23,14 @@ Stick Arena structure, secrets and other cool knowledge that I have. Still gonna
 | 04 | Get game info | 04XGen Hq |
 | 06;mp | Get game map | 06XGen Hq;mp |
 | 06;rc | Get game creator | 06XGen Hq;rc |
+| 509 | Empty hands, grab no weapon | 509
+| 5 + wep id | Grab weapon from map | 520
+| 8 + X and Y geometry | Spawn in a map point (auto-ban if no empty hands first) | 815500900
+| 4 + X and Y geometry + view point | Swing, hit | 405500100900
 | 0h | Find user in server | 0hMichal |
 | 0b + spinner id + color1 + color2 | Buy spinner | 0b100255000000255000000
 | K + UID | Send kick vote in-game | K100
+| 1 + X and Y geometry | Set position in map, walk | 11201904423210000000000002910
 
 ## Server to Client
 | Packet      | Description |
@@ -36,7 +42,8 @@ Stick Arena structure, secrets and other cool knowledge that I have. Still gonna
 | 09          | Incorrect login password |
 | 091         | Account is banned |
 | 093         | Secondary login |
-| 0c          | Receive cred ticket |
+| 0a          | Receive cred ticket |
+| 0c          | Receive profile data |
 | 01_          | Receive open games list |
 | 04          | Receive info about selected game |
 | 06;mp       | Receive map name from selected game |
@@ -45,6 +52,9 @@ Stick Arena structure, secrets and other cool knowledge that I have. Still gonna
 | 0f and 0e   | You got banned, ban time and ban message |
 | 0g          | Receive mod warning / mod global message |
 | K | Players kicking eachother / You got kicked |
+| 1 + X and Y geometry | Get players positions in map |
+| 4 + X and Y geometry | Receive player swinging, hitting |
+| 5 + id | Receive player grab weapon |
 
 
 # . : : Color Code Rules : : .
