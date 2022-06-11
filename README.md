@@ -158,6 +158,8 @@ I'm the first and most likely the last person that will ever get it, here's how 
 
 [![rank](https://github.com/Michal2SAB/Stick-Arena-Secrets/raw/main/Resources/16.png)](https://youtu.be/tWrqZXKtH8E)
 
-Further proof that I actually did it
+Further proof that I actually did it, incase I get reset soon
 
 ![img](https://github.com/Michal2SAB/Stick-Arena-Secrets/raw/main/Resources/Screenshot_1.png)
+
+[Archived highscores page](https://web.archive.org/web/20220611175456/http://www.xgenstudios.com/stickarena/highscore/) (archive.org)
