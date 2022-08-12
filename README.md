@@ -162,4 +162,4 @@ Further proof that I actually did it, incase I get reset soon
 
 ![img](https://github.com/Michal2SAB/Stick-Arena-Secrets/raw/main/Resources/Screenshot_1.png)
 
-[Archived highscores page](https://web.archive.org/web/20220805154821/http://www.xgenstudios.com/stickarena/highscore/) (archive.org)
+[Archived highscores page](https://web.archive.org/web/20220812162632/http%3A%2F%2Fwww.xgenstudios.com%2Fstickarena%2Fhighscore%2F) (archive.org)
