@@ -59,9 +59,9 @@ Stick Arena structure, secrets and other cool knowledge that I have. Still gonna
 
 # . : : Color Code Rules : : .
 ## Shop Purchase / Create Account
-* Total value of RGB ($\color{#FA3535}{Red}$ + $\color{#4CFF4C}{Green}$ + $\color{#3333FF}{Blue}$) can't exceed $\color{#FF7DF6}{522}$
-* Total value of RGB ($\color{#FA3535}{Red}$ + $\color{#4CFF4C}{Green}$ + $\color{#3333FF}{Blue}$) can't be less than $\color{#FF7DF6}{248}$
-* Atleast one value ($\color{#FA3535}{Red}$, $\color{#4CFF4C}{Green}$ or $\color{#3333FF}{Blue}$) has to be $\color{#FF7DF6}{128}$ or greater
+* Total value of RGB ( $\color{#FA3535}{Red}$ + $\color{#4CFF4C}{Green}$ + $\color{#3333FF}{Blue}$ ) can't exceed $\color{#FF7DF6}{522}$
+* Total value of RGB ( $\color{#FA3535}{Red}$ + $\color{#4CFF4C}{Green}$ + $\color{#3333FF}{Blue}$ ) can't be less than $\color{#FF7DF6}{248}$
+* Atleast one value ( $\color{#FA3535}{Red}$, $\color{#4CFF4C}{Green}$ or $\color{#3333FF}{Blue}$ ) has to be $\color{#FF7DF6}{128}$ or greater
 * $\color{#FA3535}{Red}$, $\color{#4CFF4C}{Green}$ and $\color{#3333FF}{Blue}$ values can't be all the same
 * Only $\color{#FA3535}{Red}$ can be a negative value, not $\color{#4CFF4C}{Green}$ or $\color{#3333FF}{Blue}$
 * None of the $\color{#FA3535}{Red}$, $\color{#4CFF4C}{Green}$ and $\color{#3333FF}{Blue}$ values can exceed $\color{#FF7DF6}{255}$
@@ -79,7 +79,7 @@ This rule doesn't apply to mod users or when in-game
 ## Color Transform Rules
 Stick Arena transforms RGB colors so $\color{#FF0000}{255000000}$ will not look the same as on some website. 
 * Game adds $\color{#FF7DF6}{100}$ to all three $\color{#FA3535}{Red}$, $\color{#4CFF4C}{Green}$ and $\color{#3333FF}{Blue}$ values
-* If any value ($\color{#FA3535}{Red}$, $\color{#4CFF4C}{Green}$ or $\color{#3333FF}{Blue}$) is greater than $\color{#FF7DF6}{255}$, they becomes $\color{#FF7DF6}{255}$
+* If any value ( $\color{#FA3535}{Red}$, $\color{#4CFF4C}{Green}$ or $\color{#3333FF}{Blue}$ ) is greater than $\color{#FF7DF6}{255}$, they becomes $\color{#FF7DF6}{255}$
 * $\color{#FF0000}{255000000}$ RGB will return $\color{#ff6464}{255100100}$ and 255-99-99 will return $\color{#FF0000}{255001001}$
 
 # . : : Moderator Commands, Privileges and Secrets : : .
